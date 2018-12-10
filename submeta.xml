@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+- <manifest>
+    <remote fetch="ssh://git@github.com/jokram" name="git_jokram" />
+    <default remote="git_jokram" />
+    <project groups="" name="jiri_test1" path="pkg/test1" remote="git_jokram" revision="6dbc1ea4c246db9b1fdab41de969238ffef88dfb" dest-branch="master" />
+    <project groups="" name="jiri_test2" path="pkg/test2" remote="git_jokram" revision="139e1540edbdae6a6e07d0b06ca6c9bfd2054415" dest-branch="master" />
+  </manifest>
